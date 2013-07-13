@@ -1,0 +1,86 @@
+@media (min-width: 1200px) {
+	/* Large desktop */
+	td.evento { min-width:320px; }
+	td.cuando { min-width:250px; }
+	td.costo  { min-width:135px; }
+}
+ 
+@media (min-width: 768px) and (max-width: 979px) {
+	/* Portrait tablet to landscape and desktop */
+}
+ 
+@media (max-width: 767px) {
+	/* Landscape phone to portrait tablet */
+}
+ 
+@media (max-width: 480px) {
+	/* Landscape phones and down */
+}
+
+/********************************************************/
+
+body {
+	padding: 1em 2em;
+	background: #f9f9f9;
+	background:url(
+		data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJklEQVQIW2Pcv3//fx0dHQYYYHz9+vV/OA/IgAtcuXKFAaQSQwUAnHQSBZ1jeNoAAAAASUVORK5CYII=
+   ) repeat;
+}
+#alerta{
+	margin-bottom:1em;
+}
+table{
+	background: #fff;
+}
+
+.title {
+	display: inline-block;
+	line-height: 0.5em;
+}
+.nombre_evento{
+	font-weight: bold;
+}
+.descripcion{
+	display: none; 
+}
+.descripcion td a:first-letter, .donde:first-letter{
+	text-transform: uppercase;
+}
+.cuando {
+	text-transform: capitalize;
+}
+
+/*eventos que vienen o que ya pasaron*/
+
+.smooth td 	 	{ color: #909090; }
+.smooth td a 	{ color: #97B0BF; }
+.smooth td .label {background: #c1c1c1; color: white;}
+
+.alert-info{
+	border: 1px solid #B4C4CC;
+}
+.btn:focus{
+	outline: none;
+}
+.btn.active{
+	color: #333333;
+  	background-color: #e6e6e6;
+  	*background-color: #d9d9d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
